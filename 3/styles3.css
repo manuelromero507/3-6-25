@@ -93,18 +93,23 @@ body {
     font-style: italic;
     color:hsl(333, 80%, 67%);
 }
+footer {
+  text-align: center;
+  margin-top: 10em;
+}
 .boton-volver {
     text-align: center;
     margin-top: 2em;
     padding: 0.5em 1.5em;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
-    color: hsl(236, 100%, 50%);
+    color: hsl(300, 43%, 22%);
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s ease;
+
 }
 .boton-volver:hover {
-    background-color: hsl(236, 100%, 50%);
+    background-color: hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
 }
