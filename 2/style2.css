@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+.cards {
+    width: 90%;
+    height: 500px;
+    margin: 200px auto;
+    font-size: 0;
+}
+.card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 2em;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card__title {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+.card__description {
+    width: 200px;
+}
+.card--orange {
+    background-color: hsl(31, 77%, 52%);
+}
+.card--cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+.card--green {
+    background-color: hsl(179, 100%, 13%);
+}
+.card__cta {
+    position: absolute;
+    padding: 0,7em 2em;
+    background-color: #fff;
+    border-radius: 1.2em;
+    text-decoration: none;
+    bottom: 50px;
+}
+.card__cta--orange {
+    color: hsl(31, 77%, 52%);
+}
+.card__cta--cyan {
+    color: hsl(184, 100%, 22%);
+}
+.card__cta--green {
+    color: hsl(179, 100%, 13%);
+}
+.boton-volver {
+    text-align: center;
+    margin-top: 2em;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(236, 100%, 50%);
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.boton-volver:hover {
+    background-color: hsl(236, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
